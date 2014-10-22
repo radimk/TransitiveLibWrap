@@ -1,0 +1,4 @@
+rootDir.listFiles({ File f -> new File(f, 'build.gradle').isFile() } as FileFilter).each { File subdir ->
+  include subdir.absolutePath.substring(rootDir.absolutePath.length() + 1).replace(File.separator, ':')
+}
+

@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'org.akhikhl.wuff.osgi-bundle'
+
+group = 'org.akhikhl.wuff.examples'
+version = '1.0'
+
+dependencies {
+  privateLib project(':testlib')
+}
