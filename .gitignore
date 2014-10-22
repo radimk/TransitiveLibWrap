@@ -1,0 +1,7 @@
+build
+.gradle
+.groovy
+.settings
+.nb-*
+.idea
+*.iml

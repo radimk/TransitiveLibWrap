@@ -1,0 +1,7 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'org.akhikhl.wuff.examples'
+version = '1.0'
+
+build.finalizedBy install
